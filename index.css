@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+
+}
+
+.banniere {
+    height: 150px;
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 0;
+    display: flex;
+}
+
