@@ -10,6 +10,7 @@ body {
     margin-top: 0;
     text-align: center;
     color: white;
+    padding-top: 40px;    
 }
 
 h2 {
@@ -25,13 +26,18 @@ h2 {
     margin-left: 15%;
     margin-top: 5%;
     padding-right: 15px;
+    padding-bottom: 30px;
 }
 
 .TexteDuChat{
     margin-top: 10%;
     text-align: justify;
+    margin-right: 30px;
+    height: 450px;
+    width: auto;
 }
 
 h3{
     text-align: center;
 }
+
