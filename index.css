@@ -1,10 +1,9 @@
 body {
     margin: 0;
-    background-color: #242323;
 }
 
 .banniere {
-    height: 150px;
+    height: 10em;
     width: 100%;
     background: linear-gradient(83deg, #E5D61B,#B25018,#242323);
     margin-top: 0;
