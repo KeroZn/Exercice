@@ -55,12 +55,9 @@ h3{
     font-size: 30pt; 
 }
 
-/* Auvergne */
-
-.auvergne{
+.lieu div {
     height: 200px;
     width: 900px;
-    background-image: url("lyon-saone-region-auvergne-rhone-alpes.jpg");
     background-size: 100%, 100%;
     background-repeat: no-repeat;
     background-position: 1px; 
@@ -68,89 +65,41 @@ h3{
     border-radius: 20px; 
     padding-top: 4em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Auvergne */
+
+.auvergne{  
+    background-image: url("lyon-saone-region-auvergne-rhone-alpes.jpg");  
 }
 
 /* Bourgogne */
 
-.bourgogne {
-    height: 200px;
-    width: 900px;
+.bourgogne {  
     background-image: url("alain_doire__bourgogne-franche-comte_tourisme-bfc_0010402a4-1600x900.jpg");
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
-    background-position: 1px; 
-    margin: 0 auto;
-    border-radius: 20px; 
-    padding-top: 4em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* Bretagne */
 .bretagne {
-    height: 200px;
-    width: 900px;
     background-image: url("cad83f4d-78ce-4bc8-a4d4-1c69ac5c53f8.jpg");
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
-    background-position: 1px; 
-    margin: 0 auto;
-    border-radius: 20px; 
-    padding-top: 4em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
  /* Centre */
  .centre {
-    height: 200px;
-    width: 900px;
     background-image: url("1200px-La_Loire_à_Orléans.jpg");
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
-    background-position: 1px; 
-    margin: 0 auto;
-    border-radius: 20px; 
-    padding-top: 4em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+ }
 
  /*Corse */
  .corse {
-    height: 200px;
-    width: 900px;
     background-image: url("corse_105780.jpg");
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
-    background-position: 1px; 
-    margin: 0 auto;
-    border-radius: 20px; 
-    padding-top: 4em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
  /* tom */
  .tom {
-    height: 200px;
-    width: 900px;
     background-image: url("dest_french-polynesia_leeward-islands_bora-bora_gettyimages-487399496_universal_within-usage-period_44101.jpg");
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
-    background-position: 1px; 
-    margin: 0 auto;
-    border-radius: 20px; 
-    padding-top: 4em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
  /* Paris */
  .paris {
-    height: 200px;
-    width: 900px;
     background-image: url("Ile-de-France.jpg");
-    background-size: 100%, 100%;
-    background-repeat: no-repeat;
-    background-position: 1px; 
-    margin: 0 auto;
-    border-radius: 20px; 
-    padding-top: 4em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
