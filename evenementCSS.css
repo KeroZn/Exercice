@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.banniere {
+    height: 9em;
+    width: 100%;
+    background: linear-gradient(83deg, #E5D61B,#B25018,#242323);
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    padding-top:7px;       
+}
+
+
+
+
