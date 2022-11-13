@@ -12,6 +12,54 @@ body {
     padding-top:7px;       
 }
 
+body a:hover {
+    text-decoration: underline;
+}
 
+h2 {
+    text-align: center;
+    margin-top: 5%;
+}
 
+.lieu  {
+    margin-left: 15px;
+    color: white;
+    font-size: 30pt; 
+    text-align: center;
+}
 
+.lieu div {
+    height: 150px;
+    width: 900px;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: 1px; 
+    margin: 0 auto;
+    border-radius: 20px; 
+    padding-top: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.france{
+    background-image: url("Ile-de-France.jpg");
+}
+
+.auvergne{  
+    background-image: url("lyon-saone-region-auvergne-rhone-alpes.jpg");  
+}
+
+.centre {
+    background-image: url("1200px-La_Loire_à_Orléans.jpg");
+ }
+
+ .paris {
+    background-image: url("Ile-de-France.jpg");
+}
+
+.lieu p {
+    color: black;
+    font-size: 20px;
+    padding-bottom: 2em;
+}

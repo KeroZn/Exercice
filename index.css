@@ -13,11 +13,12 @@ body {
         
 }
 
-h2 {
-    text-align: center;
-}
 body a:hover {
     text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
 }
 
 .rounded {
