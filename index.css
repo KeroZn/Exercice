@@ -13,6 +13,11 @@ body {
         
 }
 
+nav{
+    float: right;
+}
+
+
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -73,6 +78,7 @@ h3{
     margin-bottom: 10px;
 }
 
+
 /* Auvergne */
 
 .auvergne{  
@@ -110,6 +116,8 @@ h3{
     background-image: url("Ile-de-France.jpg");
 }
 
+
+
 @media screen and (max-width: 700px) {
 
 
@@ -118,12 +126,16 @@ h3{
     }
 
     h3 {
-        margin-top: 35rem;
+        
     }
+   .rounded {
+    margin-right: 10rem;
+   }
     .TexteDuChat{
+      
         text-align: center;
         max-width: 90%;
-        height: 1rem;
+        height: 65rem;
         margin-left: 5%;
     
     }

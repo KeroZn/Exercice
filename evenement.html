@@ -16,29 +16,20 @@
             </h1>
         </div> 
     </header>
-    <nav >
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html" style="color:black">Acceuil</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" style="color:black">Qui somme nous ?</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="evenement.html" style="color:gray">Evénement à venir</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" style="color:red"><FONT size="5pt"><b> Nous rejoindre</b></FONT></a>
-            </li>
-            
-            <li class="nav-item">
-                <a class="nav-link" href="#" style="color:black">Ils parlent de nous</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" style="color:black">Contact</a>
-            </li>      
-        </ul>
-    </nav> 
+    <nav class="nav">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+            </button>
+            <ul class="dropdown-menu">   
+                <li><a class="dropdown-item" href="#">Acceuil</a></li>
+                <li><a class="dropdown-item" href="#">Nous rejoindre</a></li>
+                <li><a class="dropdown-item" href="#">Evénement à venir</a></li>
+                <li><a class="dropdown-item" href="#">Ils parlent de nous</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+              </ul>
+        </div>
+    </nav>
     <section>
         <div>
             <h2>
@@ -90,6 +81,6 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
