@@ -37,7 +37,7 @@ h1 a:hover {
 
 h2 {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
     padding-bottom: 10px;
 }
 
@@ -90,10 +90,16 @@ h2 {
 
 .lieu div {
     max-width: 90%; 
+    height: 100px;
 }
 
 
-
+.lieu  {
+    margin-left: 15px;
+    color: white;
+    font-size: 20pt; 
+    text-align: center;
+}
 
 
 
