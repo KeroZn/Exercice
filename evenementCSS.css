@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+}
+
+.banniere {
+    height: 10em;
+    width: 100%;
+    background: linear-gradient(83deg, #E5D61B,#B25018,#242323);
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    padding-top:7px;       
+}
+
+nav{float: right;}
+
+h1{
+    margin-top: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+body a:hover {
+    text-decoration: underline;
+}
+
+h1 a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 10%;
+    padding-bottom: 10px;
+}
+
+.lieu  {
+    margin-left: 15px;
+    color: white;
+    font-size: 30pt; 
+    text-align: center;
+}
+
+.lieu div {
+    height: 150px;
+    width: 900px;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: 1px; 
+    margin: 0 auto;
+    border-radius: 20px; 
+    padding-top: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.france{
+    background-image: url("Ile-de-France.jpg");
+}
+
+.auvergne{  
+    background-image: url("lyon-saone-region-auvergne-rhone-alpes.jpg");  
+}
+
+.centre {
+    background-image: url("1200px-La_Loire_à_Orléans.jpg");
+ }
+
+ .paris {
+    background-image: url("Ile-de-France.jpg");
+}
+
+.lieu p {
+    color: black;
+    font-size: 20px;
+    padding-bottom: 2em;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+.lieu div {
+    max-width: 90%; 
+    height: 100px;
+}
+
+
+.lieu  {
+    margin-left: 15px;
+    color: white;
+    font-size: 20pt; 
+    text-align: center;
+}
+
+
+
+}

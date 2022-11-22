@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+}
+
+.banniere {
+    height: 10em;
+    width: 100%;
+    background: linear-gradient(83deg, #E5D61B,#B25018,#242323);
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    padding-top: 45px;
+        
+}
+
+nav{
+    float: right;
+}
+
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+}
+
+.rounded {
+
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    max-width: 100%;
+}
+
+.TexteDuChat{
+    margin-top: 10%;
+    text-align: justify;
+    margin-right: 30px;
+    height: 450px;
+    width: auto;
+}
+
+
+h3{
+    text-align: center;
+}
+
+/* Trouver une association */
+
+
+.lieu a:hover{
+    color: white;
+}
+
+.lieu a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+    font-size: 30pt; 
+}
+
+.lieu div {
+    height: 200px;
+    width: 900px;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: 1px; 
+    margin: 0 auto;
+    border-radius: 20px; 
+    padding-top: 4em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+}
+
+
+/* Auvergne */
+
+.auvergne{  
+    background-image: url("lyon-saone-region-auvergne-rhone-alpes.jpg");  
+}
+
+/* Bourgogne */
+
+.bourgogne {  
+    background-image: url("alain_doire__bourgogne-franche-comte_tourisme-bfc_0010402a4-1600x900.jpg");
+}
+
+/* Bretagne */
+.bretagne {
+    background-image: url("cad83f4d-78ce-4bc8-a4d4-1c69ac5c53f8.jpg");
+}
+
+ /* Centre */
+ .centre {
+    background-image: url("1200px-La_Loire_à_Orléans.jpg");
+ }
+
+ /*Corse */
+ .corse {
+    background-image: url("corse_105780.jpg");
+}
+
+ /* tom */
+ .tom {
+    background-image: url("dest_french-polynesia_leeward-islands_bora-bora_gettyimages-487399496_universal_within-usage-period_44101.jpg");
+}
+
+ /* Paris */
+ .paris {
+    background-image: url("Ile-de-France.jpg");
+}
+
+
+
+/*.......... Pour mobile............ */
+
+
+@media screen and (max-width: 700px) {
+
+    h2 {
+        padding-top: 10px;
+}
+
+.lieu a {
+    font-size: 20pt; 
+}
+
+    .lieu div {
+        max-width: 90%;
+        height: 100px;
+        padding-top: 2rem;
+    }
+
+   .rounded {
+    margin-right: 10rem;
+   }
+    .TexteDuChat{
+      
+        text-align: center;
+        max-width: 90%;
+        height: 70rem;
+        margin-left: 5%;
+    
+    }
+
+    .rounded {
+        height: 500px;
+        max-width: 90%;
+        
+    }
+}
